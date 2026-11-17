@@ -1,0 +1,5 @@
+# Generic initialization macro, mirrors the structure of standard
+# Geant4 examples in case you split UI driver selection out of vis.mac
+# later. Currently vis.mac is self-contained and includes everything
+# needed, so this file just forwards to it.
+/control/execute vis.mac

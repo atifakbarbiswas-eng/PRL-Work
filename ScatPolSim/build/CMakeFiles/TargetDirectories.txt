@@ -1,0 +1,3 @@
+/Users/atifakbarbiswas/Desktop/ScatPolSim/build/CMakeFiles/scatPolSim.dir
+/Users/atifakbarbiswas/Desktop/ScatPolSim/build/CMakeFiles/edit_cache.dir
+/Users/atifakbarbiswas/Desktop/ScatPolSim/build/CMakeFiles/rebuild_cache.dir

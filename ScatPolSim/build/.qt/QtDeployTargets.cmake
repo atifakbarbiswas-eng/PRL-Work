@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_scatPolSim_FILE /Users/atifakbarbiswas/Desktop/ScatPolSim/build/scatPolSim)
+set(__QT_DEPLOY_TARGET_scatPolSim_TYPE EXECUTABLE)

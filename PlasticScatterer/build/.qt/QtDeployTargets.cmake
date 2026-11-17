@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_PlasticScatterer_FILE /Users/atifakbarbiswas/Desktop/PlasticScatterer/build/PlasticScatterer)
+set(__QT_DEPLOY_TARGET_PlasticScatterer_TYPE EXECUTABLE)

@@ -1,0 +1,22 @@
+# Example batch macro: initialize geometry/physics without opening a
+# vis window, set the source, and run a beam.
+#
+# Run with:  ./scatPolSim run1.mac
+
+/run/initialize
+
+# Source: Am-241 mono-energetic line (default already set in
+# PrimaryGeneratorAction, but shown here explicitly so you can copy
+# this file and change values without touching code):
+/gps/particle gamma
+/gps/pos/type Point
+/gps/pos/centre 0 0 -20 cm
+/gps/direction 0 0 1
+/gps/ene/type Mono
+/gps/energy 59.541 keV
+/gps/polarization 1 0 0
+
+# Optionally reposition the scintillator before the run:
+#/scatPol/scintillator/setPosition 60 mm
+/run/printProgress 100000000
+/run/beamOn 100000000

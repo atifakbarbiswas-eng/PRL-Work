@@ -1,0 +1,25 @@
+# Open viewer
+/vis/open OGL
+
+# Build geometry first
+/run/initialize
+
+# Create scene
+/vis/scene/create
+/vis/scene/add/volume
+
+# Add trajectories
+/vis/scene/add/trajectories smooth
+/vis/scene/add/hits
+
+# Attach scene
+/vis/sceneHandler/attach
+
+# View settings
+/vis/viewer/set/style surface
+/vis/viewer/set/projection orthogonal
+/vis/viewer/set/viewpointThetaPhi 60 30
+/vis/viewer/zoom 1.4
+
+/vis/viewer/set/autoRefresh true
+/vis/viewer/refresh
